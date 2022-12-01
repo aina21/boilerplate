@@ -1,0 +1,24 @@
+{
+    "processors": [
+        "stylelint-processor-styled-components"
+    ],
+    "extends": [
+        "stylelint-config-recommended",
+        "stylelint-config-styled-components"
+    ],
+    "rules": {
+        "block-no-empty": null,
+        "max-empty-lines": 1,
+        "color-no-hex": [
+            true,
+            {
+                "message": "Don't use hex colors like \"%s\""
+            }
+        ],
+        "unit-allowed-list": [
+            "em",
+            "rem",
+            "s"
+        ]
+    }
+}
