@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "tslint.jsEnable": true,
+    "tslint.suppressWhileTypeErrorsPresent": true,
+    "tslint.ignoreDefinitionFiles": true,
+    "editor.tabSize": 4
+}
